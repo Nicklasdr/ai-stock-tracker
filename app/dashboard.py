@@ -31,7 +31,7 @@ st.caption(f"Last generated: {data.get('generated_at','Unknown')}")
 st.subheader("Portfolio holdings")
 holdings = pd.DataFrame(p.get("holdings", []))
 if not holdings.empty:
-    show = [c for c in ["ticker","shares","price","market_value","unrealized_pl","unrealized_pl_pct","day_change_pct","actual_allocation_pct"] if c in holdings]
+    show = [c for c in ["ticker","shares","price","market_value","unrealized_pl","unrealized_pl_pct","day_change_pct","actual_allocation_pct", "currency", "price_local"] if c in holdings]
     st.dataframe(holdings[show], use_container_width=True, hide_index=True)
 else:
     st.info("No holdings configured.")
@@ -41,7 +41,7 @@ analyses = data.get("analyses", {})
 rows = []
 for ticker, a in analyses.items():
     if "error" not in a:
-        rows.append({k: a.get(k) for k in ["ticker","close","daily_change_pct","rsi_14","sma_50","sma_200","volume_ratio_20d","signal"]})
+        rows.append({k: a.get(k) for k in ["ticker","close","daily_change_pct","rsi_14","sma_50","sma_200","volume_ratio_20d","signal", "cross_signal"]})
 if rows:
     st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
 
