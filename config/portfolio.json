@@ -74,17 +74,34 @@
     "SMCI",
     "QCOM",
     "INTC"
-  ]
-}
-
+  ],
   "names": {
-    "NOVO-B.CO": "Novo Nordisk", "SAF.PA": "Safran", "NVDA": "NVIDIA",
-    "ROCK-B.CO": "Rockwool", "NAS.OL": "Norwegian Air Shuttle", "DANSKE.CO": "Danske Bank",
-    "DSV.CO": "DSV", "NSIS-B.CO": "Novonesis", "GOOGL": "Alphabet", "AMZN": "Amazon",
-    "COST": "Costco", "BRK-B": "Berkshire Hathaway", "MU": "Micron Technology",
-    "TSM": "Taiwan Semiconductor", "AVGO": "Broadcom", "AMD": "Advanced Micro Devices",
-    "ASML": "ASML", "000660.KS": "SK Hynix", "AMAT": "Applied Materials",
-    "ANET": "Arista Networks", "SNDK": "Sandisk", "ARM": "Arm Holdings",
-    "LRCX": "Lam Research", "KLAC": "KLA Corporation", "SMCI": "Super Micro Computer",
-    "QCOM": "Qualcomm", "INTC": "Intel"
-  },
+    "NOVO-B.CO": "Novo Nordisk",
+    "SAF.PA": "Safran",
+    "NVDA": "NVIDIA",
+    "ROCK-B.CO": "Rockwool",
+    "NAS.OL": "Norwegian Air Shuttle",
+    "DANSKE.CO": "Danske Bank",
+    "DSV.CO": "DSV",
+    "NSIS-B.CO": "Novonesis",
+    "GOOGL": "Alphabet",
+    "AMZN": "Amazon",
+    "COST": "Costco",
+    "BRK-B": "Berkshire Hathaway",
+    "MU": "Micron Technology",
+    "TSM": "Taiwan Semiconductor",
+    "AVGO": "Broadcom",
+    "AMD": "Advanced Micro Devices",
+    "ASML": "ASML",
+    "000660.KS": "SK Hynix",
+    "AMAT": "Applied Materials",
+    "ANET": "Arista Networks",
+    "SNDK": "Sandisk",
+    "ARM": "Arm Holdings",
+    "LRCX": "Lam Research",
+    "KLAC": "KLA Corporation",
+    "SMCI": "Super Micro Computer",
+    "QCOM": "Qualcomm",
+    "INTC": "Intel"
+  }
+}
