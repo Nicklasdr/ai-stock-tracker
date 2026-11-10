@@ -1,20 +1,56 @@
 {
   "portfolio_name": "My Portfolio",
-  "currency": "USD",
+  "currency": "DKK",
   "benchmark": "SPY",
   "strategy_profile": "quality_growth",
   "holdings": [
     {
-      "ticker": "AAPL",
-      "shares": 5,
-      "cost_basis_per_share": 180.0,
-      "target_allocation_pct": 50
+      "ticker": "NOVO-B.CO",
+      "shares": 192,
+      "cost_basis_per_share": 271.05,
+      "target_allocation_pct": 23.49
     },
     {
-      "ticker": "MSFT",
-      "shares": 2,
-      "cost_basis_per_share": 390.0,
-      "target_allocation_pct": 50
+      "ticker": "SAF.PA",
+      "shares": 9,
+      "cost_basis_per_share": 2343.53,
+      "target_allocation_pct": 8.41
+    },
+    {
+      "ticker": "NVDA",
+      "shares": 119,
+      "cost_basis_per_share": 1133.56,
+      "target_allocation_pct": 45.71
+    },
+    {
+      "ticker": "ROCK-B.CO",
+      "shares": 50,
+      "cost_basis_per_share": 217.8,
+      "target_allocation_pct": 3.93
+    },
+    {
+      "ticker": "NAS.OL",
+      "shares": 276,
+      "cost_basis_per_share": 9.59,
+      "target_allocation_pct": 0.8
+    },
+    {
+      "ticker": "DANSKE.CO",
+      "shares": 53,
+      "cost_basis_per_share": 370.6,
+      "target_allocation_pct": 2.98
+    },
+    {
+      "ticker": "DSV.CO",
+      "shares": 10,
+      "cost_basis_per_share": 1439,
+      "target_allocation_pct": 4.89
+    },
+    {
+      "ticker": "NSIS-B.CO",
+      "shares": 67,
+      "cost_basis_per_share": 444.9,
+      "target_allocation_pct": 9.79
     }
   ],
   "watchlist": [
